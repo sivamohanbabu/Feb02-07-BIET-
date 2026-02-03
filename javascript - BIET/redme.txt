@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <script>
+//comments:
+
+    //     //two types :
+    //     // 1.local :inside of the functional scope //india
+    //     // 
+    //    //  and 2. global:inside of the file //across the globe
+    //     var a = 20 
+    //     var a = 30 
+    //     console.log(a)
+    //     console.log("Hello World") 
+    //     // ex:hoisting- declare the variable at the top
+
+        // console.log(name)
+        // var name = "bharath"
+    /* 
+        a = 20
+        var b;
+        b = 15
+        sum = a+b
+console.log(sum)
+       */
+       //  single line comments 
+      // 1.understand the code
+      //  to the other developer
+      //2.while debugging/testing the code ,orginal code is to be hide
+
+
+        //NAN//it accupies some space but value is not stored 
+        
+        // debug the output
+        // document.write() -->manupulate the doc/browser
+//es6 -let,const,hoisting
+// Note:Let and const are not allowed for redeclaration,
+// because of these are block type variables
+    //    let y = 20
+    //    let y = 15
+    //    console.log(y)
+
+    //    const z = 90
+    //    const z = 4
+    //    console.log(z)
+
+// var a = 20 
+// var b  = 12
+// sum = a+b
+
+// //declaration
+// function add(){
+//     //scope/block--set of the lines/code in the function
+//     a = 10
+//     b = 30
+//     return console.log(a+b)
+// }
+// console.log(sum)
+
+// add() //invocation
+//interpretation of the code 
+    //    to check the code line by line 
+
+    //  Data types:
+    //a,b,c,d
+
+    //library:
+        // two types DT:
+
+// NAN -defined value, accupied some space in the element
+//Undefined -Not defined 
+// 1.primitive - small data //
+//         //  string,Number,boolen,null,undefined
+//         // 2.Non primitive - Large data //
+//         // non primitive- obj,arrays
+
+// // primitive
+
+// var age = 54
+// var name = "ram"
+// var boolen = true
+// var studentdata = null
+// var roll = undefined
+// console.log(typeof(age))
+
+//non- primitive
+// def
+// obj:real world entity ,key-value pair
+// var stddata = {
+//     name : "raj",
+//     age : 40,
+//     dept:"cse",
+//     college:"bharath",
+//     roll:123,
+//     exam_Fee :0,
+//     id:1,   
+// }
+// // console.log(stddata.name)
+// console.log(stddata)
+
+//college data 
+// var totalstd = [78,32,89,12,90,43]
+// // [totalstd[0],totalstd[2]]=[totalstd[2],totalstd[0]]
+// totalstd[3] = 24
+// totalstd[5]  = 54
+//     x  = totalstd[0]
+//  totalstd[0] = totalstd[2] 
+// 'swapping the data from one index to another index using
+// temparary value'
+
+//  totalstd[2] = x
+// console.log(totalstd[5])
+// console.log(totalstd[3])
+// console.log(totalstd)
+// mutable and immutable - 
+
+// - >even
+// a = [23,56,90,12] 
+// b = [90,12,90,13] - >odd
+// console.log(typeof a)
+// //operaters  --> == , ===,
+// // conditional statements
+
+
+// // prompt -- > user input
+// a = prompt("enter the value")
+
+// if(a %2 == 0){
+// console.log("a is even")
+// }else{
+//     console.log("a is odd")
+// }
+
+// length = 12 , width = 23
+// length = prompt , width = prompt
+// l,w below <30; answer --> 
+// take some below 30 numbers to get the value of area (square) 
+
+/// both length and width should be same values 
+//template literals js es6 bactic + $
+// length = 12
+// width = 32
+// if(length<30 && width<30){
+//     console.log("both are below 30 ")
+// }else{
+//     console.log(` l value is ${length} , w value is ${width}.value is above 30 `)
+// }
+// length  = prompt("enter the length")
+// width = prompt("enter the width")
+// if(length<30 && width<30 && length == width){
+//     console.log(`lenght is ${length} and width is ${width}. this is square `)
+// }else{
+//     console.log("try again")
+// }
+
+// Looping statements in js
+// perform the logics automatically
+// fixed number of interations,loop will be executing at the fixed
+// // while : interations are not fix loop will be executing continusly
+// for(a = 0;a<20;a++){
+//     if(a % 2 == 0){
+//     console.log(a)
+// }
+// }
+// age = prompt("enter age")
+// while(age<18){
+//     console.log("not eligible for the vote")
+//    age+= 1
+// }
+
+// // JSON
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+    </script>
+       <!-- <script src="script.js"/> -->
+
+       
+</head>
+<body>
+    
+</body>
+</html>
